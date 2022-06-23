@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculadoraModule } from './calculadora/calculadora.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +13,7 @@ import { CalculadoraModule } from './calculadora/calculadora.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CalculadoraModule
+    CalculadoraModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
